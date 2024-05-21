@@ -1,0 +1,18 @@
+#+title: Quiz Server
+
+* Requirements
+A server to host quizzes, allowing for interaction between the quiz master and contestants
+
+** Quiz Master
++ Can create quizzes (list of questions), which will be stored on the server (JSON?)
++ Each question consists of its type, its required fields and a time limit
++ Can start a quiz (Only one quiz can be running at a time)
++ Can pause/resume the time for a question in the ongoing quiz
++ Can choose which answers to accept in case of text-based answers.
+** Contestant
++ Can join an ongoing quiz, will be assigned a unique ID per session
++ Will answer questions as presented
+
+** Matchmaking
++ Swiss based matchmaking
++ Live leaderboard upon request
